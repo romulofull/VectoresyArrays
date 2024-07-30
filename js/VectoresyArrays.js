@@ -5,3 +5,17 @@ let miMatriz = [[1,2,3],
 [10,9,7]];
 console.log (miMatriz[1][1]);
 
+
+let vector = new Array(3);
+vector[0] = "Romulo, Asesor, Tennis, Uk";
+vector[1] = "Programador";
+vector[2] = "Natación";
+vector[3] = "Yoga";
+vector[4] = "PIlates";
+console.log (vector);
+
+let persona0 = ["Noboa","Boxeo","Natacion"];
+let persona1 = ["Lazo","Atletismo","Thriatlon"];
+let persona2 = ["Tete","Gym","Tennis"];
+let matriz = [persona0, persona1, persona2];
+console.log (matriz);
