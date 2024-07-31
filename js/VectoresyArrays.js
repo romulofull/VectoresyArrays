@@ -28,5 +28,17 @@ if (paisesLatam[i] == "Ecuador") {
 }
 console.log(paisesLatam);
 
+let paises = [
+                  ["Argentina", "Ecuador","Peru", "Paraguay"],
+                  ["Costa Rica", "Chile","USA", "Brasil"],
+ ["Republica Dominicana", "El Salvador","Uruguay", "Panama"],
+];
 
+for (let f=0; f<paises.length; f++){
+for (let c=0; c<paises[f].length; c++) {
+
+    console.log (paises[f][c]);
+
+}
+}
 
